@@ -33,7 +33,7 @@ p {
 .item {
     border: solid 0px;
     border-spacing: 10px;
-    background: rgba(130, 116, 206, 0.6);
+    background: rgba(116, 133, 206, 0.6);
     border-radius: 20px;
 }
 .item:hover {
