@@ -1,0 +1,118 @@
+body {
+    padding-top: 70px;
+    background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1441&q=80);
+    background-size: cover;
+    color: white;
+}
+
+#content {
+    background-color: rgba(41, 41, 43, 0.6);
+    padding: 0% 2% 5% 2%;
+}
+
+.less-padding {
+    padding: 1% 0% 0%;
+}
+
+.less-padding2 {
+    padding: 4% 2% 0% 2%;
+}
+
+.jumbotron {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+p {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.navbar-inverse {
+    background-color: rgb(41, 41, 43);
+}
+
+.n-background {
+    background-image: url(https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+}
+
+.n2-background {
+    background-image: url(https://images.unsplash.com/photo-1452697620382-f6543ead73b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+}
+
+.n3-background {
+    background-image: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+}
+
+hr {
+    border: solid 1px rgb(73, 73, 75);
+}
+
+.n-hr {
+    border: solid 1px rgb(73, 40, 10);
+}
+
+ul {
+    font-size: 2rem;
+}
+
+/* Container code I found */
+@media (min-width: 768px) {
+    .container-small {
+        width: 300px;
+        margin: auto;
+    }
+    .container-large {
+        width: 970px;
+        margin: auto;
+    } 
+} 
+@media (min-width: 992px) {
+    .container-small {
+        width: 500px;
+        margin: auto;
+    }
+    .container-large {
+        width: 1170px;
+        margin: auto;
+    } 
+} 
+@media (min-width: 1200px) {
+    .container-small {
+        width: 700px;
+        margin: auto;
+    }
+    .container-large {
+        width: 1500px;
+        margin: auto;
+    } 
+}
+
+.container-small, .container-large {
+    max-width: 100%;
+}
+/* Container I found ends here */
+
+footer {
+    margin-bottom: 0.5%;
+}
+
+.end {
+    margin-top: 5%;
+
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.thumbnail {
+    width: 90%;
+}
+
+.phone-number {
+    margin-top: 10px;
+}
+
